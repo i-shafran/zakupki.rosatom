@@ -1,0 +1,6 @@
+f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/reload_parsing/1 && f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/parsing/all/archiveorders/1
+f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/reload_parsing/2 && f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/parsing/all/archiveorders/2
+f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/reload_parsing/3 && f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/parsing/all/archiveorders/3
+f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/reload_parsing/4 && f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/parsing/all/currentorders/4
+
+f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/reload_parsing/1 && f:\openserver\modules\wget\bin\wget.exe -O - -q -t 1 --timeout=36000 http://zakupki.rosatom.local/parsing/all/currentorders/1

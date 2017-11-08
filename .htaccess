@@ -1,0 +1,20 @@
+php_value error_reporting -1
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Закрыть директорию паролем
+#AuthType Basic
+#AuthName "Protected Area"
+#AuthUserFile /www/atom.vashtender.ru/html/.htpasswd
+#Require valid-user
